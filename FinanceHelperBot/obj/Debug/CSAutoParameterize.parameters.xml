@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Dataconnection-Web.config Connection String" description="Dataconnection Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:cognizantazureml.database.windows.net,1433;Database=newAdventure;User ID=azureuser@cognizantazureml;Password=Cognizant1@;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\FinanceHelperBot\\FinanceHelperBot\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Dataconnection']/@connectionString" />
+  </parameter>
+</parameters>
